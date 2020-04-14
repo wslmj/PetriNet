@@ -11,7 +11,7 @@ npm install
 Then, using command type
 
 ```
-ng serve --open
+npm run start
 ```
 
 There is only one button on this project. Just click button.
