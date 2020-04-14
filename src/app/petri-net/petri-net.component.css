@@ -1,0 +1,58 @@
+.body {
+    width: 200px;
+    /* height: 200px; */
+    margin: auto;
+    margin-top: 50px;
+    left: 0;
+    right: 0;
+}
+.mat-raised-button {
+    width: 200px;
+}
+.enable {
+    width: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+}
+.fire {
+    width: 200px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+
+}
+#petri {
+    /* width: 400px;
+    height: 700px;
+    background-color: rgba(207, 224, 224, 0.671); */
+    /* margin-top: 100px; */
+    /* margin: auto;
+    left: 0;
+    right: 0;
+    top: 0; */
+}
+/* line {
+    position: absolute;
+    z-index: -99;
+} */
+circle {
+    position: absolute;
+    z-index: 99;
+}
+#canvas {
+    width: 600px;
+    height: 700px;
+    /* background-color: rgba(207, 224, 224, 0.671); */
+    /* margin-top: 100px; */
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#table {
+    width: 600px;
+    height: 700px;
+}

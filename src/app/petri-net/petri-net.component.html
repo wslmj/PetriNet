@@ -1,0 +1,23 @@
+<!-- <p>petri-net works!</p> -->
+<div class="body">
+    <button mat-raised-button  color="warn" (click)="next()">Next</button>
+</div>
+<br>
+<div class="enable">
+    Enable: {{messageA}}
+</div>
+<br>
+<div class="fire">
+    Next Step: Fire {{messageB}}
+</div>
+<br>
+<div class="mat-elevation-z3" id="canvas">
+    <svg id="table" >
+        <line />
+        <circle *ngFor="let p of place; let i = index;" [id]="place[i].id" r="15" [attr.cx]="place[i].x +50" [attr.cy]="place[i].y+50"  stroke="#125699">
+        </circle>
+        <rect *ngFor="let p of transition; let i = index;" [id]="transition[i].id" width="15" height="30" [attr.x]="transition[i].x+50" fill="#125699" [attr.y]="transition[i].y+50"/>
+        <text *ngFor="let p of place; let i = index;" [attr.x]="place[i].x+40" [attr.y]="place[i].y+35">{{p.id}}</text>
+        <text *ngFor="let p of transition; let i = index;" [attr.x]="transition[i].x+50" [attr.y]="transition[i].y+45">{{p.id}}</text>
+    </svg>
+</div>
